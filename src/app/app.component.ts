@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, NgForm } from '@angular/forms';
 
 @Component({
-  selector: 'app-root',
+  selector: 'my-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'angular app';
+  title = 'angular';
   subForm: FormGroup;
   dataArr = [
     { id: 1, name: 'data' },
